@@ -1,0 +1,30 @@
+#navbar {
+    background: seagreen;
+}
+
+#navbar .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .container .logo a {
+    color: #fff;
+    font-size: 2rem;
+}
+
+#navbar .container .logo a>span {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+#navbar .container .links ul {
+    display: flex;
+    gap: 1.7rem;
+}
+
+#navbar .container .links ul li a {
+    color: #fff;
+}
